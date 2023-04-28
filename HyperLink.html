@@ -4,14 +4,87 @@
 <head>
     <meta charset="utf-8" />
     <title>Hyper Link</title>
+    <style>
+        /*a:link{
+            color:black;
+            text-decoration:none;
+        }
+        a:visited{
+            color:pink;
+        }
+        a:hover{
+            color:gray;
+            text-decoration:underline;
+        }
+        a:active {
+            color: mediumpurple;
+            font-size: 22px;
+            text-decoration: underline;
+        }*/
+        /*.list a:link{
+            color:black;
+            text-decoration:none;
+        }
+        .list a:visited {
+            color: pink;
+        }
+        .list a:hover {
+            color: gray;
+            text-decoration: underline;
+        }
+        .list a:active {
+            color: mediumpurple;
+            font-size: 22px;
+            text-decoration: underline;
+        }*/
+        .list>li>a:link {
+            color: black;
+            text-decoration: none;
+        }
+
+        .list>li>a:visited {
+            color: pink;
+        }
+
+        .list>li>a:hover {
+            color: gray;
+            text-decoration: underline;
+        }
+
+        .list>li>a:active {
+            color: mediumpurple;
+            font-size: 22px;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <ul>
-        <li><a href="https://news.google.com/home?hl=zh-TW&gl=TW&ceid=TW:zh-Hant">Google新聞</a></li>
-        <li><a href="List.html">List</a></li>
-        <li><a href="First.html">First</a></li>
-        <li><a href="#section1">Section1</a></li>
+    <a href="https://news.google.com/home?hl=zh-TW&gl=TW&ceid=TW:zh-Hant">Google新聞</a>
+    <a href="List.html">List</a>
+    <a href="First.html">First</a>
+    <a href="mailto:yzyz86031614@gmail.com">聯絡</a>
+    <a href="#section1">Section1</a>
+
+    <ul class="list">
+        <li><a href="http://pchome.com.tw">首頁</a></li>
+        <li><a href="First.html">關於</a></li>
+        <li><a href="List.html">不落格</a></li>
+        <li><a href="mailto:yzyz86031614@gmail.com">聯絡</a></li>
     </ul>
+    <!--<ul class="list">
+        <li>
+            <ol>
+                <li><a href="http://pchome.com.tw">首頁</a></li>
+                <li><a href="First.html">關於</a></li>
+                <li><a href="List.html">不落格</a></li>
+                <li><a href="mailto:yzyz86031614@gmail.com">聯絡</a></li>
+            </ol>
+        </li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>-->
 
     <h1 id="section1">Section1</h1>
     <figure>

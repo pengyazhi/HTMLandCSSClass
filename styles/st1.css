@@ -1,0 +1,45 @@
+﻿.st1 {
+    color: teal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.st2 {
+    color: red;
+    font-style: italic;
+    font-size:30px;
+}
+
+.col2 {
+    color: sandybrown;
+}
+
+.col1 {
+    color: gray;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.txt-size {
+    font-size: 2em;
+}
+
+h2 {
+    color: blue;
+}
+
+p{
+    color:midnightblue;
+    font-size:20px;
+    text-decoration:underline;
+}

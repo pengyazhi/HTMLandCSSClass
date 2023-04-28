@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <title>Table</title>
+    <style>
+        .tb1{
+            width:400px;
+            height:500px;
+            border:solid 3px gray; 
+            border-collapse:collapse;
+        }
+        td{
+            border: solid 1px grey;
+            font-size: 20px;
+        }
+        th {
+            border: solid 1px beige;
+            font-size: 20px;
+        }
+        thead {
+            background-color: slategray;
+            color: beige;
+        }
+        tbody{
+            background-color:aliceblue;
+            color:steelblue;
+        }
+        tbody tr:nth-child(2n){
+            background-color:plum;
+            
+        }
+        tbody tr:nth-child(2n+1) {
+                background-color: lavender;
+               
+        }
+            tbody td:hover {
+                background-color:greenyellow;
+                color:yellow;
+            }
+        thead th:hover {
+            background-color: greenyellow;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table class="tb1">
+        <thead>
+            <tr>
+                <th>column1</th>
+                <th>column2</th>
+                <th>column3</th>
+                <th>column4</th>
+            </tr>
+            <tr>
+                <th colspan="2">A</th>
+                <!--<th>column2</th>-->
+                <th colspan="2">B</th>
+                <!--<th>column4</th>-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td colspan="3">9</td>
+                <!--<td>10</td>
+        <td>11</td>-->
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td rowspan="3">15</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>18</td>
+                <!--<td>19</td>-->
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>22</td>
+                <!--<td>23</td>-->
+                <td>24</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
